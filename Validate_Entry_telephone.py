@@ -46,6 +46,8 @@ class Logon(ctk.CTk):
             return phone  # Retorna o original se não houver 11 dígitos
         return f"({phone_digits[:2]}) {phone_digits[2:7]}-{phone_digits[7:]}"
 
+
+
 if __name__ == "__main__":
     logon = Logon()
     logon.mainloop()
