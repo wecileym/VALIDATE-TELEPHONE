@@ -3,9 +3,6 @@ import re
 import tkinter as tk
 import customtkinter as ctk
 
-
-
-
 class Logon(ctk.CTk): 
 
     def __init__(self):
